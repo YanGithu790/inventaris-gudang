@@ -37,7 +37,7 @@ def lbl(df, col): return {f"{r[0]} · {r[1]}": r[2] for r in df[[col[0], col[1],
 
 # ---------- Login ----------
 def login_page():
-    st.title("INVENTARIS GUDANG")
+    st.title("SISTEM INFORMASI INVENTARIS GUDANG")
     st.markdown("<div class='box heavy mono'><b>SELAMAT DATANG DI SISTEM INFORMASI INVENTARISASI BARANG</b><br>HARAP GUNAKAN MODE TERANG JIKA TYPING/TULISANNYA TIDAK TERLIHAT</br></div>", unsafe_allow_html=True)
     with st.form("login"):
         e = st.text_input("Email"); p = st.text_input("Kata sandi", type="password")
